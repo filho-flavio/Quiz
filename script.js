@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", function () {
         } else {
             resultMessage=`Você acertou ${score} quesões!`;
         }
-e
+
         const btRestart = document.createElement('button');
         btRestart.textContent = "Restart";
         btRestart.id = "btRestart";
