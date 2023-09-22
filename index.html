@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <meta name="Author" content="Flavio Filho">
+    <link rel="icon" href="./img/logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1 id="quiz-title">Quiz</h1>
+    <div class="quiz">
+        <div class="outResult"></div>
+        <p id="inQuestion"></p>
+        <div class="content">
+            <ul>
+                <li>
+                    <input class="inAnswer" type="radio" id="a" name="answer" value="a">
+                    <label for="a" id="labelA"></label>
+                </li>
+                <li>
+                    <input class="inAnswer" type="radio" id="b" name="answer" value="b">
+                    <label for="b" id="labelB"></label>
+                </li>
+                <li>
+                    <input class="inAnswer" type="radio" id="c" name="answer" value="c">
+                    <label for="c" id="labelC"></label>
+                </li>
+            </ul>
+        </div>
+        <button id="btSubmit" class="">Submit</button>
+    </div>
+</body>
+
+</html>
